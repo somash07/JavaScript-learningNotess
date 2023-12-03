@@ -1,0 +1,54 @@
+
+    <!-- External js advantage: 
+    1. readability
+    2. browser caching
+    3.modularity: seperate independent modules
+
+    ->window object: represents a window in a browser.it is browser object. global object.
+
+    ->DOM: html converts to js object called document. 
+
+    -> Accessing Attribute
+    idName.hasAtttribute('attrName')->returns boolean 
+    idname.getAttribute('attrName')->attr ko value dinxa
+    idName.setAttribute('attrName','attr_value')->_target,href,src,etc
+    idName.removeAttribute('attrName')
+    
+    
+    ->custom attriibute banauna dataset ko concept ie 
+    data-attribute name="attribute value"
+    for accessing the data set
+    idname.dataset->sab vlaue print garaunxa
+    for accessing each custom attribute: idname.dataset.attr_name
+
+    ->insertion : 
+        let div=document.createElement('div')
+        div.innerHTML='<h1>hello WOrld</h1>'
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstDiv">
+        <h1 class="first" id="idname" data-somash="sumina">hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repudiandae adipisci nihil qui fuga quis nemo? Dolorum vero provident odit obcaecati animi!</p>
+    </div>
+</body>
+<script>
+   let a=document.getElementsByTagName('div')[0]
+//    a.innerHTML+='<h1>hello world</h1><hr>'   : same kaam lai effective method
+
+let div=document.createElement('div')
+div.innerHTML+='<h1>hello world by somash</h1><hr>'
+a.prepend(div)
+
+</script>
+</html>
