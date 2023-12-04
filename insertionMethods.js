@@ -9,4 +9,4 @@ div.innerHTML=("<h2>created element</h2>")
 // a.apppend(div)
 // a.before(div)
 // a.after(div)
-a.replaceWith(div)
+// a.replaceWith(div) a replaced with div 
