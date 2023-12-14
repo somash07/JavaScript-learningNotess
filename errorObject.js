@@ -11,6 +11,7 @@
 
      
 */
+const f=()=>{
 try{
 let age=Number.parseInt(prompt("enter age: "))
 if(age>150){
@@ -27,3 +28,6 @@ if(age>150){
     //exit the loop
     //write to the log file
 }
+}
+f()//finally chai try ma error aaaye ni mathi ko f() bata try ma error naai return aayey ni chalxa chalxa.
+//if there is a return in try,finally is executed just before the control returns to the outer code.
