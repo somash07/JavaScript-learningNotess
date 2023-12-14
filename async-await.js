@@ -1,5 +1,6 @@
 /*
     Async fnx always returns a promise.
+    ->different async fnx executes parallely.
 */
 async function learningAsync(){
     let p1=new Promise((resolve,reject)=>{
