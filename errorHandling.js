@@ -12,6 +12,15 @@
 
         istead we can 
 
+        setTimeout(()=>{
+            console.log("procee 2")
+            try{
+            console.log(jpterror)
+            }catch(err){
+                console.log("eroor")
+            }
+        },3000)
+
 */
 setTimeout(()=>{
     console.log("process 1")
