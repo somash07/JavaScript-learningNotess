@@ -25,7 +25,7 @@ api.createOrder(cart,()=>{
     })
 })
 
-//Inversion of control: 
+//Inversion of control: tala ko example ma proceedToPayment() ko control createOrder() ley garxa. which can be imp part of code.as it is responsibility of createOrder() to call the proceedToOrder()
 
 api.createOrder(cart,()=>{
     api.proceedToPayment()

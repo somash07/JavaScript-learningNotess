@@ -16,7 +16,7 @@ user
 })
 .then((data)=>console.log(data))
 
-//promise chaining :return is must
+//promise chaining :return is
 createOrder(cart)
 .then((orderId)=>proceedToPayment(orderId))
 .then((paymentInfo)=>showOrderSummary(paymentInfo))
