@@ -8,19 +8,26 @@
 </head>
 <body>
     <nav>
-        <div class="top">
-            <div class="logo">
-                <h2>Weather??</h2>
-            </div>
-            <div class="search">
-                <form action="">
-                    <input type="text" name="" id="">
-                    <button>Search</button>
-                </form>
-                </form>
+        <div class="top-container">
+            <div class="top">
+                <div class="logo">
+                    <h2><i>Weather?</i></h2>
+                </div>
+                <div class="search">
+                    <form action="" >
+                        <input placeholder="city name" id="look" type="text" name="" id="">
+                        <button class="search-btn" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </div>
     </nav>
+    <div class="inf-container">
+        <div class="card">
+            <h3>temperature</h3>
+            <p id="temperature">: </p>
+        </div>
+    </div>
 </body>
 <script src="app.js"></script>
 </html>
