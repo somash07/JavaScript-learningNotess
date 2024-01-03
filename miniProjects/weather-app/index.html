@@ -14,7 +14,7 @@
                     <h2><i>Weather?</i></h2>
                 </div>
                 <div class="search">
-                    <form action="" >
+                    <form action="" class="weather-form" >
                         <input placeholder="city name" id="look" type="text" name="" id="">
                         <button class="search-btn" type="submit">Search</button>
                     </form>
@@ -23,9 +23,19 @@
         </div>
     </nav>
     <div class="inf-container">
+        <h3 align="center" class="errHead">cityname</h3>
         <div class="card">
-            <h3>temperature</h3>
-            <p id="temperature">: </p>
+            <div class="upper-card">
+                <div class="weatherImg"><img src="#" alt="img"></div>
+                <div class="temp-box"><p>temperature: 10</p></div>
+            </div>
+            <div class="lower-card">
+                <div class="humidity-box"><p>Humidity: 10</p></div>
+                <div class="maxmin-temp">
+                    <p>max-temp: 30</p>
+                    <p>min-temp: 10</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

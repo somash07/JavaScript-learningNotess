@@ -55,6 +55,9 @@ form input[type="text"]:focus{
     border: none;
     border-radius: 20px;
     box-shadow: 0 0 30px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .inf-container{
     display: flex;
@@ -62,4 +65,18 @@ form input[type="text"]:focus{
     align-items: center;
     height: 80vh;
 
+}
+.weatherImg, .temp-box, .humidity-box, .maxmin-temp{
+    height: 25vh;
+    width: 18vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper-card,.lower-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
