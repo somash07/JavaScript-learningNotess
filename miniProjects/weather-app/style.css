@@ -48,7 +48,11 @@ form input[type="text"]:focus{
     background-color: #87CEEB ;
     box-shadow: 0px 0px 8px grey;
 }
-
+.text{
+    font-size: 1.5em;
+    color: #999;
+    font-style: italic;
+}
 .card{
     height: 70vh;
     width: 40vw;
@@ -60,6 +64,7 @@ form input[type="text"]:focus{
     justify-content: space-evenly;
 }
 .inf-container{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +84,10 @@ form input[type="text"]:focus{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.errHead{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
