@@ -55,7 +55,7 @@ form input[type="text"]:focus{
 }
 .card{
     height: 70vh;
-    width: 40vw;
+    width: 50vw;
     border: none;
     border-radius: 20px;
     box-shadow: 0 0 30px grey;
@@ -74,10 +74,11 @@ form input[type="text"]:focus{
 .weatherImg, .temp-box, .humidity-box, .maxmin-temp{
     height: 25vh;
     width: 18vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* box-sizing: border-box; */
     flex-direction: column;
 }
 .upper-card,.lower-card{
@@ -90,4 +91,15 @@ form input[type="text"]:focus{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tempStyle{
+    color: #999;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.errHead{
+    font-size: 2.5rem;
+    color: #999;
 }
