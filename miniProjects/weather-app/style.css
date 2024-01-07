@@ -55,7 +55,7 @@ form input[type="text"]:focus{
 }
 .card{
     height: 70vh;
-    width: 50vw;
+    width: 75vw;
     border: none;
     border-radius: 20px;
     box-shadow: 0 0 30px grey;
@@ -81,6 +81,9 @@ form input[type="text"]:focus{
     /* box-sizing: border-box; */
     flex-direction: column;
 }
+.weatherImg{
+    width: 10px;
+}
 .upper-card,.lower-card{
     display: flex;
     flex-wrap: wrap;
@@ -100,6 +103,5 @@ form input[type="text"]:focus{
 }
 
 .errHead{
-    font-size: 2.5rem;
     color: #999;
 }
